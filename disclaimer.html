@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StockTok — Legal Disclaimer | הבהרה משפטית</title>
+<style>
+  :root {
+    --bg: #000000; --bg1: #121212; --bg2: #1C1C1E;
+    --text: #F5F5F5; --dim: #A8A8A8; --brand: #00C087;
+    --negative: #FF3B30; --glass: rgba(255,255,255,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  .header {
+    background: var(--bg1); border-bottom: 1px solid var(--glass);
+    padding: 20px 24px; position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .header h1 { font-size: 20px; font-weight: 700; }
+  .header a { color: var(--brand); text-decoration: none; font-size: 14px; }
+  .lang-toggle {
+    display: flex; gap: 8px; justify-content: center; padding: 16px 24px;
+    background: var(--bg1); border-bottom: 1px solid var(--glass);
+  }
+  .lang-toggle button {
+    background: var(--glass); border: 1px solid var(--glass); color: var(--text);
+    padding: 8px 20px; border-radius: 8px; font-size: 14px; cursor: pointer;
+  }
+  .lang-toggle button.active { background: var(--brand); color: #000; font-weight: 600; border-color: var(--brand); }
+  .content { max-width: 680px; margin: 0 auto; padding: 24px; }
+  .updated { color: var(--dim); font-size: 13px; margin-bottom: 24px; }
+  h2 { font-size: 18px; font-weight: 700; margin: 28px 0 8px; color: var(--text); }
+  p { color: var(--dim); font-size: 15px; margin-bottom: 12px; }
+  .section { background: var(--bg1); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .warning { border: 1px solid var(--negative); background: rgba(255,59,48,0.08); }
+  .warning p { color: var(--text); }
+  a { color: var(--brand); }
+  [lang="en"] { direction: ltr; text-align: left; }
+  [lang="he"] { direction: rtl; text-align: right; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="index.html">StockTok</a>
+  <h1 id="page-title">הבהרה משפטית</h1>
+  <div style="width: 60px"></div>
+</div>
+
+<div class="lang-toggle">
+  <button class="active" onclick="showLang('he')">עברית</button>
+  <button onclick="showLang('en')">English</button>
+</div>
+
+<!-- HEBREW -->
+<div id="he" class="content" lang="he">
+  <p class="updated">עדכון אחרון: מרץ 2026</p>
+
+  <div class="section warning">
+    <h2>הבהרה כללית</h2>
+    <p>StockTok אינה מספקת ייעוץ פיננסי ואינה מורשית לפעול כיועצת השקעות, ברוקראז' או סוכנות. כל התוכן המוצג באפליקציה הוא למטרות חינוכיות בלבד ואינו מהווה המלצה לקנייה או מכירה של ניירות ערך.</p>
+  </div>
+
+  <div class="section">
+    <h2>סיכוני השקעה</h2>
+    <p>השקעה בשוק ההון כרוכה בסיכון להפסד חלק מההשקעה או את כולה. ביצועים קודמים אינם מעידים על תוצאות עתידיות. אל תשקיע כסף שאינך יכול להרשות לך להפסיד.</p>
+  </div>
+
+  <div class="section">
+    <h2>תוכן יוצרים</h2>
+    <p>תוכן שמפורסם על ידי יוצרים באפליקציה מייצג את דעותיהם האישיות בלבד. StockTok אינה אחראית לדיוק, שלמות או איכות תוכן היוצרים.</p>
+  </div>
+
+  <div class="section">
+    <h2>נתוני שוק</h2>
+    <p>נתוני השוק המוצגים באפליקציה עשויים להיות מעוכבים ועלולים להכיל שגיאות. אין להסתמך על מחירים אלו לקבלת החלטות השקעה.</p>
+  </div>
+
+  <div class="section">
+    <h2>הגבלת אחריות</h2>
+    <p>StockTok לא תישא באחריות לכל נזק, הפסד, או נזק עקיף שנגרם כתוצאה משימוש באפליקציה או הסתמכות על מידע שמוצג בה.</p>
+  </div>
+</div>
+
+<!-- ENGLISH -->
+<div id="en" class="content hidden" lang="en">
+  <p class="updated">Last updated: March 2026</p>
+
+  <div class="section warning">
+    <h2>General Disclaimer</h2>
+    <p>StockTok is not a licensed financial advisor and is not authorized to act as an investment advisor, broker, or agent. All content displayed in the application is for educational purposes only and does not constitute a recommendation to buy or sell any securities.</p>
+  </div>
+
+  <div class="section">
+    <h2>Investment Risk</h2>
+    <p>Investing in the capital market involves risk of losing part or all of your investment. Past performance is not indicative of future results. Do not invest money you cannot afford to lose.</p>
+  </div>
+
+  <div class="section">
+    <h2>Creator Content</h2>
+    <p>Content published by creators on the application represents their personal opinions only. StockTok is not responsible for the accuracy, completeness, or quality of creator content.</p>
+  </div>
+
+  <div class="section">
+    <h2>Market Data</h2>
+    <p>Market data displayed in the application may be delayed and may contain errors. Do not rely on these prices for making investment decisions.</p>
+  </div>
+
+  <div class="section">
+    <h2>Limitation of Liability</h2>
+    <p>StockTok shall not be liable for any damage, loss, or indirect damage resulting from use of the application or reliance on information displayed in it.</p>
+  </div>
+</div>
+
+<script>
+function showLang(lang) {
+  document.getElementById('he').classList.toggle('hidden', lang !== 'he');
+  document.getElementById('en').classList.toggle('hidden', lang !== 'en');
+  document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('page-title').textContent = lang === 'he' ? 'הבהרה משפטית' : 'Legal Disclaimer';
+  document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
+  document.documentElement.lang = lang;
+}
+</script>
+</body>
+</html>
